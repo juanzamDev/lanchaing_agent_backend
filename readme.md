@@ -1,4 +1,4 @@
-# AI Technology Marketplace Assistant
+# AI Agent Assistant
 
 This project is an AI-driven assistant designed to interact with users in the context of a technology marketplace. It uses language models to process user inputs and generate responses based on predefined prompts and templates.
 
@@ -24,20 +24,17 @@ This project is an AI-driven assistant designed to interact with users in the co
     source venv/bin/activate  # On macOS/Linux
     ```
 
-3. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. Set up environment variables:
+3. Create .env file:
     - Create a `.env` file in the root directory.
-    - Add your environment variables (e.g., API keys) to the `.env` file.
+    ```sh
+    OPENAI_KEY=YOUR_OPENAI_API_KEY
+    ```
 
 ## Usage
 
-1. **Run the main application**:
+1. **Run the application**:
     ```sh
-    python main.py
+    python ai_app.py
     ```
 
 2. **Interact with the assistant**:
