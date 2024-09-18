@@ -90,8 +90,8 @@ This project is an AI-driven assistant designed to interact with users in the co
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE] file for details.
 
 ## Contact
 
-For any questions or suggestions, please contact [yourname@yourdomain.com](mailto:juanzamdev@gmail.com).
+For any questions or suggestions, please contact [juanzamdev@gmail.com](mailto:juanzamdev@gmail.com).
