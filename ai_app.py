@@ -27,10 +27,9 @@ llm = AzureChatOpenAI(deployment_name=gpt35_deploy, temperature=0, request_timeo
 embeddings = AzureOpenAIEmbeddings(deployment=ada02_deploy)
 
 # Base de productos basica
-df_grupos = pd.read_csv("tratamiento base/list_embeddings_grupos.csv")
+df_grupos = pd.read_csv("tratamiento_base/base_completa_productos.csv")
 # Base de productos compleja
-df_especifico = pd.read_csv("tratamiento base/list_embeddings_productos_prueba.csv")
-
+df_especifico = pd.read_csv("tratamiento_base/Productos_alta_demanda.csv")
 
 def segmentacion(user_input: str=None, model: AzureChatOpenAI=None, prompt_a: PromptTemplate=None) -> dict:
     decision_chain = LLMChain(llm=model, prompt=prompt_a)
